@@ -24,7 +24,6 @@ prompt=ChatPromptTemplate.from_messages(
 
 def generate_response(question,api_key,engine,temperature,max_tokens):
     openai.api_key=api_key
-
     llm=ChatOpenAI(model=engine)
     output_parser=StrOutputParser()
     chain=prompt|llm|output_parser
