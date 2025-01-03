@@ -41,7 +41,7 @@ st.sidebar.title("Settings")
 api_key = st.sidebar.text_input("Enter your OpenAI API Key:", type="password")
 
 ## Select the OpenAI model
-engine = st.sidebar.selectbox("Select OpenAI model", ["gpt-4", "gpt-4-turbo", "gpt-3.5-turbo"])
+engine = st.sidebar.selectbox("Select OpenAI model", ["gpt-4", "gpt-4-turbo", "gpt-4o"])
 
 ## Adjust response parameters
 temperature = st.sidebar.slider("Temperature", min_value=0.0, max_value=1.0, value=0.7)
