@@ -1,2 +1,2 @@
 # Chatbot-with-OpenAI
-## GENAI Search App
+GENAI Search App
